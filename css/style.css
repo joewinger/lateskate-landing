@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-size: 15px;
-  line-height: 28px;
+  line-height: 1.58em;
   font-weight: 300;
 }
 h1 {
@@ -77,8 +77,9 @@ header {
 }
 
 .header-background {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.18), rgba(40, 40, 40, 0.23)) scroll, url("../img/galaxy-3.png") no-repeat fixed center 0px / cover, url("../img/galaxy-3-tiny.png") no-repeat fixed center 0px / cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.18), rgba(40, 40, 40, 0.23)) scroll, url("../img/galaxy-3.png") no-repeat center fixed 0px / cover, url("../img/galaxy-3-tiny.png") no-repeat fixed center 0px / cover;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.18), rgba(40, 40, 40, 0.23)) scroll, url("../img/galaxy.png") no-repeat fixed center 0px / cover, url("../img/galaxy-min.png") no-repeat fixed center 0px / cover;
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.18), rgba(40, 40, 40, 0.23)) scroll, url("../img/galaxy.png") no-repeat fixed center 0px / cover, url("../img/galaxy-min.png") no-repeat fixed center 0px / cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.18), rgba(40, 40, 40, 0.23)) scroll, url("../img/galaxy.png") no-repeat center fixed 0px / cover, url("../img/galaxy-min.png") no-repeat fixed center 0px / cover;
 }
 
 .header-nav {
@@ -207,10 +208,7 @@ footer {
   margin: 0;
   padding: 0;
 
-  background: #111;
-
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)), url("../img/galaxy-5-tiny.png") no-repeat center 0px / cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18)), url("../img/galaxy-5-tiny.png") no-repeat center 0px / cover;
+  background: #2B2229;
 
   color: rgba(255, 255, 255, 0.8);
 }
